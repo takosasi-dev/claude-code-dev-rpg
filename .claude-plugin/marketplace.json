@@ -1,0 +1,9 @@
+{
+  "name": "claude-code-dev-rpg",
+  "owner": { "name": "takosasi-dev" },
+  "description": "作業すると育つ Claude Code の RPG「冒険の書」と、装備のカードが出るガチャ",
+  "plugins": [
+    { "name": "dev-rpg", "source": "./mods/dev-rpg", "description": "/rpg で作業すると育つ RPG。魔物と戦い、SP で能力とスキルを育てる" },
+    { "name": "turn-gacha", "source": "./mods/turn-gacha", "description": "/gacha でターンが終わるたびにガチャ。出たカードは冒険の書で装備になる" }
+  ]
+}

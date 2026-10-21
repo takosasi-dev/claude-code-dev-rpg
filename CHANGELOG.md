@@ -2,6 +2,17 @@
 
 このリポジトリは [claude-code-mods](https://github.com/takosasi-dev/claude-code-mods) から dev-rpg と turn-gacha だけを抜き出した物です。各 mod の細かい変わり方は、claude-code-mods の CHANGELOG にもあります。
 
+## [0.3.0] - 2026-10-21
+
+### Added
+
+- turn-gacha 0.3.0: カードを 40 種から 60 種にした(レア度の割合はそのまま)。図鑑の実績の数はカードの表から数える
+- dev-rpg 0.5.0・turn-gacha 0.3.0: claude-code-mods の daily-quest(日替わりのお題)が入っていれば、こなしたお題のごほうびを 1 回だけ受け取る(dev-rpg は経験値、turn-gacha はおまけの抽選)。daily-quest が無くても動く
+
+### Fixed
+
+- dev-rpg 0.5.1・turn-gacha 0.3.1: 記録を書く時に、知らない欄(新しい版が足した物)を残して書くようにした。古い版を読んだまま動いているセッションが、新しい版の記録(装備・SP の割り振り・新しいカードの記録など)を消していた
+
 ## [0.2.0] - 2026-10-21
 
 ### Changed

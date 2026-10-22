@@ -2,6 +2,12 @@
 
 このリポジトリは [claude-code-mods](https://github.com/takosasi-dev/claude-code-mods) から dev-rpg と turn-gacha だけを抜き出した物です。各 mod の細かい変わり方は、claude-code-mods の CHANGELOG にもあります。
 
+## [0.3.1] - 2026-10-22
+
+### Changed
+
+- turn-gacha 0.3.2: 「図鑑」のボタンを脇のボタン(dimColor、VS Code では枠だけの控えめなボタン)にした。今日の手動の分を引き切った時は「もう一回引く」も脇にする
+
 ## [0.3.0] - 2026-10-21
 
 ### Added
